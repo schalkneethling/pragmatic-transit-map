@@ -165,7 +165,7 @@ a:hover {
   margin-inline: auto;
 }
 
-.eyebrow {
+.subtitle {
   margin: 0;
   color: var(--color-ink-muted);
   font-family: var(--font-mono);
@@ -481,7 +481,9 @@ a:hover {
     align-items: end;
   }
 
-  .eyebrow {
+  /* Placed explicitly so the title and lede share the first row above it. */
+  .subtitle {
+    grid-row: 2;
     grid-column: 1 / -1;
   }
 
