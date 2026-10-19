@@ -213,6 +213,7 @@ a:hover {
 .line-badge {
   display: inline-flex;
   flex: none;
+  align-self: start;
   align-items: center;
   justify-content: center;
   min-inline-size: 2.25rem;
@@ -241,6 +242,7 @@ a:hover {
 
 .line-chevron {
   flex: none;
+  align-self: start;
   color: var(--color-ink-muted);
 }
 
