@@ -11,7 +11,7 @@
     "test:e2e": "playwright test"
   },
   "author": "Schalk Neethling",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "type": "module",
   "private": true,
   "devDependencies": {
